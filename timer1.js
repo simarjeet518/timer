@@ -1,6 +1,6 @@
 let argv = process.argv;
 argv =argv.map(Number); // all strings will be NaN
-argv.sort(); 
+//argv.sort(); 
 for(let ele of argv){
   if(ele !== NaN && ele >0){
     setTimeout(()=>{
